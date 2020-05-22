@@ -1,0 +1,265 @@
+slef_parser start.
+pad
+
+tab count:
+0
+string count:
+4
+0
+	port
+
+tab count:
+1
+string count:
+6
+1
+		a
+
+tab count:
+2
+string count:
+4
+2
+	
+
+tab count:
+1
+string count:
+2
+1
+
+
+tab count:
+0
+string count:
+1
+0
+wire
+
+tab count:
+0
+string count:
+5
+0
+	port
+
+tab count:
+1
+string count:
+6
+1
+		a
+
+tab count:
+2
+string count:
+4
+2
+		b
+
+tab count:
+2
+string count:
+4
+2
+	layout
+
+tab count:
+1
+string count:
+8
+1
+		circle
+
+tab count:
+2
+string count:
+9
+2
+			r	10
+
+tab count:
+4
+string count:
+8
+3
+			stroke	black
+
+tab count:
+4
+string count:
+16
+3
+			stroke-width	2
+
+tab count:
+4
+string count:
+18
+3
+			fill	red
+
+tab count:
+4
+string count:
+12
+3
+		circle
+
+tab count:
+2
+string count:
+9
+2
+			r	6
+
+tab count:
+4
+string count:
+7
+3
+			stroke	black
+
+tab count:
+4
+string count:
+16
+3
+			stroke-width	2
+
+tab count:
+4
+string count:
+18
+3
+			fill	white
+
+tab count:
+4
+string count:
+14
+3
+	
+
+tab count:
+1
+string count:
+2
+1
+Z
+
+tab count:
+0
+string count:
+2
+0
+	port
+
+tab count:
+1
+string count:
+6
+1
+		a
+
+tab count:
+2
+string count:
+4
+2
+			x	5
+
+tab count:
+4
+string count:
+7
+3
+			y	0
+
+tab count:
+4
+string count:
+7
+3
+		b
+
+tab count:
+2
+string count:
+4
+2
+			x	5
+
+tab count:
+4
+string count:
+7
+3
+			y	20
+
+tab count:
+4
+string count:
+8
+3
+	layout
+
+tab count:
+1
+string count:
+8
+1
+		rect 
+
+tab count:
+2
+string count:
+8
+2
+			stroke	#000000
+
+tab count:
+4
+string count:
+18
+3
+			height	20
+
+tab count:
+4
+string count:
+13
+3
+			width	10
+
+tab count:
+4
+string count:
+12
+3
+			fill	#ffffff
+
+tab count:
+4
+string count:
+16
+3
+
+
+tab count:
+0
+string count:
+1
+0
+		
+
+tab count:
+2
+string count:
+3
+2
+indent error:
+line  36 : 
+
+line  37 : 		
+

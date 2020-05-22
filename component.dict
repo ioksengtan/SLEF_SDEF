@@ -1,0 +1,29 @@
+pad = {
+	'port':[
+		'a'
+	]
+}
+
+wire = {
+	'port':[
+		'a', 
+		'b'
+	],
+	'layout':[
+		{
+			'circle':{
+				'r':10,
+				'stroke':'black',
+				'stroke-width':2,
+				'fill':'red'
+			}
+		},
+		{
+			'circle':{
+				'r':6,
+				'stroke':'black',
+				'stroke-width':2,
+				'fill':'white'
+			}
+		}
+	]

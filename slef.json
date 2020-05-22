@@ -1,0 +1,1 @@
+{"Z": {"layout": {"rect": {"width": "10", "stroke": "#000000", "fill": "#ffffff", "height": "20"}}, "port": {"a": {"y": "0", "x": "5"}, "b": {"y": "20", "x": "5"}}}, "wire": {"layout": {"circle": {"stroke-width": "2", "stroke": "black", "r": "6", "fill": "white"}}, "port": {"a": {}, "b": {}}}, "pad": {"port": {"a": {}}}}
