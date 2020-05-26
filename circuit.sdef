@@ -1,22 +1,23 @@
 Zp2t_n2t	
-	class	Z
-	x	105
-	y	195
-	rotation	0
+	layout
+		Z
+			x	105
+			y	195
+			rotation	0
 
-#wire1
-#	class	wire
-#	port
-#		a	Zp2t_n2t:a	
-#		b	Zp2t_n2t:b	
-#	layout
-#		line
-#			x1	100
-#			y1	200	 	
-#			x2	100
-#			y2	300
-#pad1
-#	class	pad
-#	x	30
-#	y	165
-#		
+wire1
+	port
+		a	Zp2t_n2t:a	
+		b	Zp2t_n2t:b	
+	layout
+		line
+			x1	100
+			y1	200	 	
+			x2	100
+			y2	300
+pad1
+	layout
+		pad
+			x	30
+			y	165
+		
