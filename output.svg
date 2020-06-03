@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 640 480" >
+<!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+<g>
+<title>Layer 1</title>
+<circle stroke-width="2" cy="40.0" stroke="black" cx="0.0" r="20" type="circle" fill="red" />
+<circle cx="0.0" cy="40.0" stroke="black" r="6" stroke-width="2" type="circle" fill="white" />
+<rect height="20" width="10" stroke="#000000" y="195.0" x="100.0" type="rect" fill="#ffffff" />
+<line y2="320.0" x2="300.0" stroke="red" y1="220.0" x1="300.0" type="line" />
+<line y2="300.0" x2="100.0" stroke="#000000" y1="200.0" x1="100.0" type="line" />
+<line y2="320.0" x2="120.0" stroke="#000000" y1="220.0" x1="120.0" type="line" />
+</g>
+</svg>

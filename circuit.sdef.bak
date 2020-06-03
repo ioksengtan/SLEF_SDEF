@@ -2,15 +2,9 @@ Zp2t_n2t
 	.class	impedence
 	layout
 		Z
-			x	100
+			x	105
 			y	195
 			rotation	0
-
-wire2
-	layout
-		wire
-			x	100
-			y	20
 
 wire1
 	.class	wire
@@ -23,17 +17,10 @@ wire1
 			y1	200	 	
 			x2	100
 			y2	300
-			stroke	#000000
-		line
-			x1	120
-			y1	220	 	
-			x2	120
-			y2	320
-			stroke	#000000
 pad1
 	.class pad
 	layout
 		pad
-			x	0
-			y	40
+			x	30
+			y	165
 		

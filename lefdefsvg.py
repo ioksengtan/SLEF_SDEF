@@ -30,4 +30,10 @@ f_slef.close()
 #slef_dict = json.loads(tmp, encoding = 'utf-8')
 
 from render import *
-render_svg(slef_dict, sdef_dict)
+svg_list = get_svg_from_sdef(slef_dict, sdef_dict)
+
+f = open(output_file,'w')
+for svg_ in svg_list:
+	f.write(svg_+'\n')
+f.close()
+
