@@ -17,6 +17,7 @@ def sdef_parser(lines):
 	curr_instance = None
 	instance_dict = {}
 	for line in lines:
+		print line
 		if line[0] == '#':
 			continue
 		[num_indent, cmd] = get_indent_data(line)	
@@ -134,6 +135,10 @@ def sdef_parser(lines):
 					curr_instance = cmd
 					instance_dict[cmd] = {}
 					continue
+	if state != 'idle':
+		instance_dict[curr_instance]['layout'].append(curr_svg_dict)
+		state = 'idle'
+	
 				
 		#print 'state:'+state+', curr_comp:',curr_instance
 	print 'sdef_parser done.'

@@ -18,6 +18,12 @@ def slef_parser(lines):
 	state = 'idle'
 	curr_svg_dict = {}
 	for line in lines:
+		#print 'state:'
+		#print state
+		#print 'line:'
+		#print line
+		#print 'curr_dict:'
+		#print curr_svg_dict
 		if line[0] == '#':
 			continue
 		else:

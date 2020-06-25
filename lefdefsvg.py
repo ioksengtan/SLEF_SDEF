@@ -14,6 +14,8 @@ from slef_parser import *
 f_slef = open(slef_file,'r')
 lines_slef = f_slef.readlines()
 slef_dict = slef_parser(lines_slef)
+#print 'dbg:'
+#print slef_dict
 with open('slef.json','w') as file:
 	file.write(json.dumps(slef_dict, ensure_ascii = True, encoding = 'utf-8'))
 
@@ -25,12 +27,16 @@ with open('sdef.json','w') as file:
 	file.write(json.dumps(sdef_dict, encoding = 'utf-8'))
 f_slef.close()
 
+#print 'dbg2:'
+#print slef_dict
 #f_slef = open('slef.json')
 #tmp = str(f_slef.read())
 #slef_dict = json.loads(tmp, encoding = 'utf-8')
 
 from render import *
 svg_list = get_svg_from_sdef(slef_dict, sdef_dict)
+#print 'dbg3:'
+#print slef_dict
 
 f = open(output_file,'w')
 for svg_ in svg_list:

@@ -3,7 +3,7 @@ pad
 		a
 	layout
 		circle
-			r	20
+			r	10
 			stroke	black
 			cx	0
 			cy	0

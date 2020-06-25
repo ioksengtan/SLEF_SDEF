@@ -1,265 +1,220 @@
 slef_parser start.
-pad
+slef_parser end.
+sdef_parser start.
+Zp2t_n2t	
 
-tab count:
-0
-string count:
-4
-0
-	port
-
-tab count:
-1
-string count:
-6
-1
-		a
-
-tab count:
-2
-string count:
-4
-2
-	
-
-tab count:
-1
-string count:
-2
-1
-
-
-tab count:
-0
-string count:
-1
-0
-wire
-
-tab count:
-0
-string count:
-5
-0
-	port
-
-tab count:
-1
-string count:
-6
-1
-		a
-
-tab count:
-2
-string count:
-4
-2
-		b
-
-tab count:
-2
-string count:
-4
-2
 	layout
 
-tab count:
-1
-string count:
-8
-1
-		circle
+		Z
 
-tab count:
-2
-string count:
-9
-2
-			r	10
+			x	100
 
-tab count:
-4
-string count:
-8
-3
-			stroke	black
+			y	195
 
-tab count:
-4
-string count:
-16
-3
-			stroke-width	2
+			rotation	0
 
-tab count:
-4
-string count:
-18
-3
-			fill	red
 
-tab count:
-4
-string count:
-12
-3
-		circle
 
-tab count:
-2
-string count:
-9
-2
-			r	6
+Zp1t_n1t	
 
-tab count:
-4
-string count:
-7
-3
-			stroke	black
+	layout
 
-tab count:
-4
-string count:
-16
-3
-			stroke-width	2
+		Z
 
-tab count:
-4
-string count:
-18
-3
-			fill	white
+			x	20
 
-tab count:
-4
-string count:
-14
-3
-	
+			y	195
 
-tab count:
-1
-string count:
-2
-1
-Z
+			rotation	0
 
-tab count:
-0
-string count:
-2
-0
-	port
+Zp3t_n3t	
 
-tab count:
-1
-string count:
-6
-1
-		a
+	layout
 
-tab count:
-2
-string count:
-4
-2
-			x	5
+		Z
 
-tab count:
-4
-string count:
-7
-3
-			y	0
+			x	100
 
-tab count:
-4
-string count:
-7
-3
-		b
+			y	275
 
-tab count:
-2
-string count:
-4
-2
-			x	5
+			rotation	0
 
-tab count:
-4
-string count:
-7
-3
+
+
+wire2
+
+	layout
+
+		wire
+
+			x	100
+
 			y	20
 
-tab count:
-4
-string count:
-8
-3
+
+
+wire1
+
+	.class	wire
+
 	layout
 
-tab count:
-1
-string count:
-8
-1
-		rect 
+		line
 
-tab count:
-2
-string count:
-8
-2
+			x1	100
+
+			y1	200	 	
+
+			x2	100
+
+			y2	300
+
 			stroke	#000000
 
-tab count:
-4
-string count:
-18
-3
-			height	20
+		line
 
-tab count:
-4
-string count:
-13
-3
-			width	10
+			x1	120
 
-tab count:
-4
-string count:
-12
-3
-			fill	#ffffff
+			y1	220	 	
 
-tab count:
-4
-string count:
-16
-3
+			x2	120
 
+			y2	320
 
-tab count:
-0
-string count:
-1
-0
+			stroke	#000000
+
+pad1
+
+	layout
+
+		pad
+
+			x	30
+
+			y	165
+
 		
 
-tab count:
-2
-string count:
-3
-2
-indent error:
-line  36 : 
+pad2
 
-line  37 : 		
+	layout
+
+		pad
+
+			x	60
+
+			y	165
+
+
+
+pad3
+
+	layout
+
+		pad
+
+			x	90
+
+			y	195
+
+sdef_parser done.
+
+render:wire1
+svg native cmd: line
+dict_svg:
+{'y2': '300', 'x2': '100', 'stroke': '#000000', 'y1': '200', 'x1': '100', 'type': 'line'}
+def_dict:
+{}
+y2 is not supported in this svg type. (line)
+x2 is not supported in this svg type. (line)
+y1 is not supported in this svg type. (line)
+x1 is not supported in this svg type. (line)
+svg native cmd: line
+dict_svg:
+{'y2': '320', 'x2': '120', 'stroke': '#000000', 'y1': '220', 'x1': '120', 'type': 'line'}
+def_dict:
+{}
+y2 is not supported in this svg type. (line)
+x2 is not supported in this svg type. (line)
+y1 is not supported in this svg type. (line)
+x1 is not supported in this svg type. (line)
+render done
+
+
+render:wire2
+render slef cmd: wire
+dict_svg:
+{'y2': '300', 'x2': '200', 'stroke': 'red', 'y1': '200', 'x1': '200', 'type': 'line'}
+def_dict:
+{'y': '20', 'x': '100', 'type': 'wire'}
+y2 is not supported in this svg type. (line)
+x2 is not supported in this svg type. (line)
+y1 is not supported in this svg type. (line)
+x1 is not supported in this svg type. (line)
+render done
+
+
+render:Zp1t_n1t
+render slef cmd: Z
+dict_svg:
+{'width': '10', 'stroke': '#000000', 'fill': '#ffffff', 'type': 'rect', 'height': '20'}
+def_dict:
+{'y': '195', 'x': '20', 'rotation': '0', 'type': 'Z'}
+render done
+
+
+render:Zp3t_n3t
+render slef cmd: Z
+dict_svg:
+{'width': '10', 'stroke': '#000000', 'fill': '#ffffff', 'type': 'rect', 'height': '20'}
+def_dict:
+{'y': '275', 'x': '100', 'rotation': '0', 'type': 'Z'}
+render done
+
+
+render:pad1
+render slef cmd: pad
+dict_svg:
+{'stroke-width': '2', 'cy': '0', 'stroke': 'black', 'cx': '0', 'r': '10', 'type': 'circle', 'fill': 'red'}
+def_dict:
+{'y': '165', 'x': '30', 'type': 'pad'}
+cy is not supported in this svg type. (circle)
+cx is not supported in this svg type. (circle)
+dict_svg:
+{'cx': '0', 'cy': '0', 'stroke': 'black', 'r': '6', 'stroke-width': '2', 'type': 'circle', 'fill': 'white'}
+def_dict:
+{'y': '165', 'x': '30', 'type': 'pad'}
+cx is not supported in this svg type. (circle)
+cy is not supported in this svg type. (circle)
+render done
+
+
+render:Zp2t_n2t
+render slef cmd: Z
+dict_svg:
+{'width': '10', 'stroke': '#000000', 'fill': '#ffffff', 'type': 'rect', 'height': '20'}
+def_dict:
+{'y': '195', 'x': '100', 'rotation': '0', 'type': 'Z'}
+render done
+
+
+render:pad3
+render done
+
+
+render:pad2
+render slef cmd: pad
+dict_svg:
+{'stroke-width': '2', 'cy': '0', 'stroke': 'black', 'cx': '0', 'r': '10', 'type': 'circle', 'fill': 'red'}
+def_dict:
+{'y': '165', 'x': '60', 'type': 'pad'}
+cy is not supported in this svg type. (circle)
+cx is not supported in this svg type. (circle)
+dict_svg:
+{'cx': '0', 'cy': '0', 'stroke': 'black', 'r': '6', 'stroke-width': '2', 'type': 'circle', 'fill': 'white'}
+def_dict:
+{'y': '165', 'x': '60', 'type': 'pad'}
+cx is not supported in this svg type. (circle)
+cy is not supported in this svg type. (circle)
+render done
 
